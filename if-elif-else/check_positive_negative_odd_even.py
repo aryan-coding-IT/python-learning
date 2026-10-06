@@ -1,0 +1,11 @@
+num = int(input("Enter a number:"))
+
+if(num > 0 and num % 2 == 0):
+    print("Positive & Even")
+elif(num > 0 and num % 2 != 2):
+         print("Positive & Odd")
+    
+elif(num < 0 and num % 2 != 0):
+    print("Negative & Odd")
+elif(num < 0 and num % 2 == 0):
+        print("Negative & Even")
